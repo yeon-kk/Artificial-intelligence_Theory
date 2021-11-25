@@ -60,4 +60,5 @@ and : 최소값
 or : 최대값  
 
 # 알파-베타 가지치기 설명 영상  
+핵심: __깊이우선탐색__  
 [alpha-beta-prunning](https://drive.google.com/file/d/1rjcbqTk0BlidDBo3k9DL6aOjXeNAEOTU/view?usp=sharing, "알파-베타 가지치기 구글 드라이브 설명영상 입니다" )
