@@ -22,9 +22,10 @@ __퍼지이론__ : 부정확한 언어
 `
 문제) p1(cf_1) = 0.5, p2(cf_2) = 0.9, p3(cf_3) = 0.7, R(cf_r)=0.5
 `
-
+`
 IF p1(cf_1)AND p2(cf_2)AND p3(cf_3)THEN R(cf_r):min(cf_1,cf_2,cf_3)*cf_r  
    0.5         0.9         0.7          0.5    =   0.5      *     0.5  
+`
 
 __풀이__  
 ```
@@ -35,7 +36,7 @@ cf(R)=0.5*0.5 = 0.25
 
 2.__OR__  
 `
-IF p1(cf_1) OR p2(cf_2) OR p3(cf_3) THEN R(cf_r):max(cf_1,cf_2, cf_3)*cf_r
+IF p1(cf_1) OR p2(cf_2) OR p3(cf_3) THEN R(cf_r):max(cf_1,cf_2, cf_3)*cf_r  
    0.5         0.9         0.7           0.5    =    0.9       *      0.5
 `
 __풀이__
